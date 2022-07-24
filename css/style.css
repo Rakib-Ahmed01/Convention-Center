@@ -16,3 +16,9 @@ body {
     font-size: 16px;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .testimonial .none {
+    display: none;
+  }
+}
