@@ -1,0 +1,5 @@
+@media screen and (max-width: 420px) {
+  header .navbar-brand {
+    font-size: 16px;
+  }
+}
