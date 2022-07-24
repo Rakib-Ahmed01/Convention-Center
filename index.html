@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <script src="https://kit.fontawesome.com/370c8f2c18.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="container bg-white">
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Abacus Convention Center</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img src="icons/menu-2 1.svg" class="img-fluid">
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">About Us</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark"  href="#">Contact</a>
+              </li>              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark"  href="#">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="banner mb-5">
+        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/banner.png" class="d-block w-100 img-fluid" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="fw-bold text-capitalize">The perfect venue for your <br>
+                  next event.</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit.</p>
+                <button class="btn btn-light fw-semibold text-primary m-3">Book Now</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/banner.png" class="d-block w-100 img-fluid" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="fw-bold text-capitalize">The perfect venue for your <br>
+                  next event.</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit.</p>
+                <button class="btn btn-light fw-semibold text-primary m-3">Book Now</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/banner.png" class="d-block w-100 img-fluid" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="fw-bold text-capitalize">The perfect venue for your <br>
+                  next event.</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit.</p>
+                <button class="btn btn-light fw-semibold text-primary m-3">Book Now</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="precious mb-5">
+        <div class="container">
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="images/wedding.png" class="img-fluid" alt="Wedding Image" style="height:100%; object-fit:cover;">
+              </div>
+              <div class="col-md-7 d-flex justify-content-center align-items-center">
+                <div class="card-body">
+                  <h3 class="card-title fw-bold">Every moment is Precious </h3>
+                  <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, minus aspernatur praesentium molestiae unde officia iste eaque fugiat consequuntur quis illo! Unde quaerat nostrum magnam quos id obcaecati molestias commodi?</p>
+                  <button class="btn btn-primary fw-semibold">Explore Our Album <i class="fas fa-arrow-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pricing mb-5">
+        <div class="container border">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title fw-bold">300$</h2>
+                  <h3 class="fw-semibold">Business Fair</h3>
+                  <p class="card-text mb-2">For most businesses event like book fair, craft fair etc.</p>
+                  <p><i class="fa-solid fa-check me-1 text-primary" ></i> Limited Space Access</p>
+                  <p><i class="fa-solid fa-check me-1 text-primary" ></i> Security</p>
+                  <p><i class="fa-solid fa-check me-2  text-primary" ></i>Event Support</p>
+                  <p><i class="fa-solid fa-check me-1 text-primary" ></i> Decoration Design</p>
+                  <p><i class="fa-solid fa-check me-1 text-primary" ></i> Per Day Bill</p>
+                  <button class="btn btn-primary fw-semibold">Choose Plan</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title fw-bold">500$</h2>
+                  <h3 class="fw-semibold">Wedding Basic</h3>
+                  <p class="card-text mb-2">For weddings with basic plan and limitedt items.</p>
+                  <p><i class="fa-solid fa-check me-1 text-primary" ></i> Limited Space Access</p>
+                  <p><i class="fa-solid fa-check me-1 text-primary" ></i> Security</p>
+                  <p><i class="fa-solid fa-check me-2  text-primary" ></i>Event Support</p>
+                  <p><i class="fa-solid fa-check me-1 text-primary" ></i> Decoration Design</p>
+                  <p><i class="fa-solid fa-check me-1 text-primary" ></i> Per Day Bill</p>
+                  <button class="btn btn-primary fw-semibold">Choose Plan</button>
+                </div>
+              </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h2 class="card-title fw-bold">800$</h2>
+                    <h3 class="fw-semibold">Wedding Plus</h3>
+                    <p class="card-text mb-2">For most weddings with premium plans.</p>
+                    <p><i class="fa-solid fa-check me-1 text-primary" ></i> Limited Space Access</p>
+                    <p><i class="fa-solid fa-check me-1 text-primary" ></i> Security</p>
+                    <p><i class="fa-solid fa-check me-2  text-primary" ></i>Event Support</p>
+                    <p><i class="fa-solid fa-check me-1 text-primary" ></i> Decoration Design</p>
+                    <p><i class="fa-solid fa-check me-1 text-primary" ></i> Per Day Bill</p>
+                    <button class="btn btn-primary fw-semibold">Choose Plan</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h2 class="card-title fw-bold">1000$</h2>
+                    <h3 class="fw-semibold">Corporate Event</h3>
+                    <p class="card-text mb-1">For most corporate business events.</p>
+                    <p><i class="fa-solid fa-check me-1 text-primary" ></i> Limited Space Access</p>
+                    <p><i class="fa-solid fa-check me-1 text-primary" ></i> Security</p>
+                    <p><i class="fa-solid fa-check me-2  text-primary" ></i>Event Support</p>
+                    <p><i class="fa-solid fa-check me-1 text-primary" ></i> Decoration Design</p>
+                    <p><i class="fa-solid fa-check me-1 text-primary" ></i> Per Day Bill</p>
+                    <button class="btn btn-primary fw-semibold">Choose Plan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
